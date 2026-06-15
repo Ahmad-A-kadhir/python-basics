@@ -32,6 +32,16 @@ def range_for(a,b ):
     for i in range (a,b ,-1):
         print (i)
 
-a=int(input("num:"))    
-b=int(input("num:"))
-range_for(a,b)    
+    a=int(input("num:"))    
+    b=int(input("num:"))
+    range_for(a,b)    
+
+# exercise 05
+
+year=int(input("Year:"))
+if year%400==0:
+    print ("True")
+elif year%100==0:
+    print("False")
+elif year%4==0:
+    print("True")
